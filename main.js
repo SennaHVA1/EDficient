@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'images/Slide 2 - behind the scenes/IMG-20210128-WA0001.jpg',
             'images/Slide 2 - behind the scenes/FIBI Leadership Summit 2017 (268).jpg',
             'images/Slide 2 - behind the scenes/20180908_122047.jpg',
-            'images/Slide 2 - behind the scenes/timelapse 720p.mp4',
+            'images/Slide 2 - behind the scenes/timelapse_720p.mp4',
         ]
     };
 
