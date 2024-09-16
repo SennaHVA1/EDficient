@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDficient</title>
+    <link rel="stylesheet" href="css/rewarding.css">
+    <!----Font awesome cdn  font icon css -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Intro</a></li>
+                        <li><a href="carefree.html">Care-free</a></li>
+                        <li><a href="rewarding.html" class="current-page">Rewarding</a></li>
+                        <li><a href="fun.html">Fun</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-text">
+                    <div class="images-wrapper">
+                        <img src="images/HOOFD.png" alt="hoofd" class="hoofd">
+                        <img src="images/EDFICIENT_LOGO.png" alt="logo" class="logo2">
+                    </div>
+                    <p> “Champagne on a beer budget” Are you familiar with that phrase?
+                        Well, it’s my specialty; realizing that we’re on a tight budget, but you want to make sure things don’t look cheap, right?
+                        
+                        <br><br>
+                        Joining forces also means leveraging available experience and expertise in your organization and making sure we keep the end goal in mind. Measurable results that enable follow-up are a guarantee for a return-on-investment. 
+
+                        <br>
+                        I keep a keen eye on that tight budget and I report project progress frequently. Always. Whilst doing so, I make sure that we fuel the good ideas and have funds available for that champagne/beer toast at the end of a succesful project. 
+
+                        <br><br>
+                        Yes, even celebrating success can be done EDficient. Cheers!
+
+
+                    </p>
+
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/ed-hogendoorn-262a90a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a id="openContactForm"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                 </div>
+            </div>
+            <div class="gallery" id="gallery">
+                <div class="gallery-item">
+                    <img src=
+        "images/EDFICIENT_WEB-MeasurableResults.png" 
+                        alt="Results">
+                </div>
+            </div> 
+        </div>
+        <div class="oranje-balk">
+            <img src="images/oranjebaan-mettekst.png" alt="Oranje balk" class="desktop-balk">
+            <img src="images/oranjebaan.png" alt="Mobile Oranje balk" class="mobile-balk">
+        </div> 
+     </div>
+</div>
+    <!-- Contact Form Popup -->
+    <div id="contactForm" class="contact-form-popup">
+        <div class="contact-form-content">
+            <span class="close-btn">&times;</span>
+            <h2>Contact Me</h2>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <form action="https://api.web3forms.com/submit" method="post">
+                <input type="hidden" name="access_key" value="b8575a0f-49ba-4d93-aea2-7c3d03642b82">
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <!-- Google reCAPTCHA widget -->
+                <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="main.js"></script>
+
+    
+</body>
+</html>
