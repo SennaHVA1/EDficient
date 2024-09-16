@@ -396,6 +396,12 @@ nav .navlinks li a{
         display: none;
     }
 
+    .gallery-item img {
+        filter: grayscale(0%); /* Black and white by default */
+    }
+    .gallery-item video {
+        filter: grayscale(0%); /* Black and white by default */
+    }
 }
 @media(max-width:768px)
 {
