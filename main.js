@@ -73,8 +73,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "Sports events": [
             'images/Slide 1 - homepage/Sports event/43467118_1985951318118618_5887229767047970816_n-768x432.jpg',
             'images/Slide 1 - homepage/Sports event/83852481-c46a-3e03-8caa-ab6aba427911.jpg',
-            'images/Slide 1 - homepage/Sports event/bhsingellooputrecht021.jpg',
-            'images/Slide 1 - homepage/Sports event/download.jfif'
+            'images/Slide 1 - homepage/Sports event/118.jpg',
+            'images/Slide 1 - homepage/Sports event/download.jpg'
         ],
         "Customer events": [
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (195).jpg',

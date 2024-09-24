@@ -180,7 +180,7 @@ nav .navlinks li a{
     transform: translate(-50%, -33.33%); /* Center horizontally */
     padding: 20px;
     width: 100%;
-    max-width: 600px; /* Limit the width on larger screens */
+    max-width: 800px; /* Limit the width on larger screens */
     text-align: center;
     background-color: white;
     border-radius: 10px;
@@ -195,6 +195,7 @@ nav .navlinks li a{
     height: auto; /* Maintain aspect ratio */
     max-height: 70vh; /* Ensure image height doesn't exceed viewport height */
 }
+
 
 /* Close button */
 .modal .close {
