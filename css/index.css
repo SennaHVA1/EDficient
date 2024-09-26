@@ -306,6 +306,14 @@ nav .navlinks li a{
 .contact-form-content .close-btn:hover {
     color: #EC6502;
 }
+.next-page {
+    display: none;
+    max-width: 100px;
+    height: auto;
+    margin: 30px 0px 20px auto; /* Center horizontally with auto margins */
+
+}
+
 .oranje-balk {
     max-width: 100%;
     height: auto;
@@ -403,6 +411,10 @@ nav .navlinks li a{
     .gallery-item video {
         filter: grayscale(0%); /* Black and white by default */
     }
+    .next-page {
+        display: block;
+    }
+    
 }
 @media(max-width:768px)
 {
