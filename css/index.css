@@ -159,6 +159,7 @@ nav .navlinks li a{
     filter: grayscale(100%); /* Black and white by default */
     transition: filter 0.5s ease; /* Smooth transition when hovering */
 }
+
 /* Modal styling */
 .modal {
     display: none; /* Hidden by default */
