@@ -159,7 +159,28 @@ nav .navlinks li a{
     filter: grayscale(100%); /* Black and white by default */
     transition: filter 0.5s ease; /* Smooth transition when hovering */
 }
-
+.gallery-item-no-hover {
+    flex: 1 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+    padding:10px;
+    text-align:center;
+    cursor: cursor;
+    transition: box-shadow 0.7s ease; /* Smooth transition for the shadow effect */
+}
+.gallery-item-no-hover img:hover,  .gallery-item-no-hover video:hover {
+    filter: grayscale(0%); /* Restore color */
+}
+.gallery-item-no-hover img{
+    filter: grayscale(100%); /* Black and white by default */
+    transition: filter 0.5s ease; /* Smooth transition when hovering */
+}
+.gallery-item-no-hover img, .gallery-item-no-hover video {
+    width:100%;
+    height:auto;
+    display:block;
+    filter: grayscale(100%); /* Black and white by default */
+    transition: filter 0.5s ease; /* Smooth transition       when hovering */
+}
 /* Modal styling */
 .modal {
     display: none; /* Hidden by default */
