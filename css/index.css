@@ -433,6 +433,12 @@ nav .navlinks li a{
     .gallery-item video {
         filter: grayscale(0%); /* Black and white by default */
     }
+    .gallery-item-no-hover img {
+        filter: grayscale(0%); /* Black and white by default */
+    }
+    .gallery-item-no-hover video {
+        filter: grayscale(0%); /* Black and white by default */
+    }
     .next-page {
         display: block;
     }

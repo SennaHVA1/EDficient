@@ -81,7 +81,6 @@ document.addEventListener("DOMContentLoaded", function() {
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (201).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (222).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (230).jpg',
-            'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (246).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (257).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (265).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (270).jpg',
