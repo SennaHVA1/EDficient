@@ -107,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function() {
             'images/Slide 1 - homepage/Congress/FIBI Leadership Summit 2017 (200).jpg',
             'images/Slide 1 - homepage/Congress/FIBI Leadership Summit 2017 (202).jpg',
             'images/Slide 1 - homepage/Congress/FIBI Leadership Summit 2017 (206).jpg',
-            'images/Slide 1 - homepage/Congress/FIBI Leadership Summit 2017 (234).jpg',
         ],
         "Tradeshows": [
         ],
