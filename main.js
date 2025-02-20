@@ -98,6 +98,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
         ],
         "Internal events": [
+            'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (106).jpg',
+            'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (72).JPG',
+            'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (77).JPG',
+            'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (93).JPG',
+            'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (101).png',
 
         ],
         "Congress events": [
@@ -109,6 +114,23 @@ document.addEventListener("DOMContentLoaded", function() {
             'images/Slide 1 - homepage/Congress/FIBI Leadership Summit 2017 (206).jpg',
         ],
         "Tradeshows": [
+            'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (24).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (70).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (122).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Cargill FiE 2022 (195).JPG',
+            'images/Slide 1 - homepage/Tradeshow/Cargill FiE 2022 (198).JPG',
+            'images/Slide 1 - homepage/Tradeshow/Cargill FiE 2022 (240).JPG',
+            'images/Slide 1 - homepage/Tradeshow/Cargill FiE 2022 (326).JPG',
+            'images/Slide 1 - homepage/Tradeshow/Cargill Frankfurt (41).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Cargill Frankfurt (75).jpg',
+            'images/Slide 1 - homepage/Tradeshow/NR6-FIPARIS-STAND-04523.jpg',
+            'images/Slide 1 - homepage/Tradeshow/NR6-FIPARIS-STAND-04550.jpg',
+            'images/Slide 1 - homepage/Tradeshow/NR6-FIPARIS-STAND-04754.jpg',
+            'images/Slide 1 - homepage/Tradeshow/NR6-FIPARIS-STAND-04924.jpg',
+            'images/Slide 1 - homepage/Tradeshow/20171123_124642.jpg',
+            'images/Slide 1 - homepage/Tradeshow/20171123_124734.jpg',
+            'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (21).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (131).jpg',
         ],
         "Video Animation": [
             '',
