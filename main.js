@@ -100,7 +100,6 @@ document.addEventListener("DOMContentLoaded", function() {
         "Internal events": [
             'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (106).jpg',
             'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (72).JPG',
-            'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (77).JPG',
             'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (93).JPG',
             'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (101).png',
 
