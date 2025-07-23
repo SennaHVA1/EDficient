@@ -71,15 +71,15 @@ document.addEventListener("DOMContentLoaded", function() {
     // Object to hold different image sets for each gallery image
     const imageSets = {
         "Sports events": [
+            'images/Slide 1 - homepage/Sports event/118.jpg',
             'images/Slide 1 - homepage/Sports event/43467118_1985951318118618_5887229767047970816_n-768x432.jpg',
             'images/Slide 1 - homepage/Sports event/83852481-c46a-3e03-8caa-ab6aba427911.jpg',
-            'images/Slide 1 - homepage/Sports event/118.jpg',
             'images/Slide 1 - homepage/Sports event/download.jpg'
         ],
         "Customer events": [
+            'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (222).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (195).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (201).jpg',
-            'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (222).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (230).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (257).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Fi Europe 2023 (265).jpg',
@@ -94,14 +94,12 @@ document.addEventListener("DOMContentLoaded", function() {
             'images/Slide 1 - homepage/Customer event/Cargill Party FI 2019 (WEB (13).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Party FI 2019 (WEB (31).jpg',
             'images/Slide 1 - homepage/Customer event/Cargill Party FI 2019 (WEB (68).jpg',
-
-
         ],
         "Internal events": [
+            'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (101).png',
             'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (106).jpg',
             'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (72).JPG',
             'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (93).JPG',
-            'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (101).png',
 
         ],
         "Congress events": [
@@ -113,6 +111,19 @@ document.addEventListener("DOMContentLoaded", function() {
             'images/Slide 1 - homepage/Congress/FIBI Leadership Summit 2017 (206).jpg',
         ],
         "Tradeshows": [
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (149).jpg',
+            'https://github.com/SennaHVA1/EDficient/raw/refs/heads/main/images/Slide%201%20-%20homepage/Tradeshow/Project%20IBA-a/2025849.%20Event%20Dawn%20Foods%20Dusseldorf%2019-05-2025%20copy.mp4',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (54).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (95).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (97).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (107).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (119).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (138).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (139).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (157).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (158).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (255).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (256).jpg',
             'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (24).jpg',
             'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (70).jpg',
             'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (122).jpg',
@@ -130,20 +141,6 @@ document.addEventListener("DOMContentLoaded", function() {
             'images/Slide 1 - homepage/Tradeshow/20171123_124734.jpg',
             'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (21).jpg',
             'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (131).jpg',
-            'https://github.com/SennaHVA1/EDficient/raw/refs/heads/main/images/Slide%201%20-%20homepage/Tradeshow/Project%20IBA-a/2025849.%20Event%20Dawn%20Foods%20Dusseldorf%2019-05-2025%20copy.mp4',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (54).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (95).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (97).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (107).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (119).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (138).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (139).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (149).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (157).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (158).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (255).jpg',
-            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (256).jpg',
-
 
         ],
         "Video Animation": [
