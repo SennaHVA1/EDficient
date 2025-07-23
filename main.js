@@ -130,6 +130,21 @@ document.addEventListener("DOMContentLoaded", function() {
             'images/Slide 1 - homepage/Tradeshow/20171123_124734.jpg',
             'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (21).jpg',
             'images/Slide 1 - homepage/Tradeshow/Cargill Fi Europe 2023 (131).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/2025849. Event Dawn Foods Dusseldorf 19-05-2025 copy.mp4',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (54).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (95).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (97).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (107).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (119).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (138).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (139).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (149).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (157).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (158).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (255).jpg',
+            'images/Slide 1 - homepage/Tradeshow/Project IBA-a/Dawn iba Dusseldorf 19-05-2025 (256).jpg',
+
+
         ],
         "Video Animation": [
             '',
@@ -154,6 +169,7 @@ document.addEventListener("DOMContentLoaded", function() {
             modalImage.style.display = "none"; // Hide the image
             modalVideo.style.display = "block"; // Show the video
             videoSource.src = currentMedia; // Set the video source
+            modalVideo.volume = 0.2; // Set volume to 30%
             modalVideo.load(); // Reload the video with the new source
         } else {
             modalVideo.style.display = "none"; // Hide the video

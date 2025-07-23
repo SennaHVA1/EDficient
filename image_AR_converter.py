@@ -2,12 +2,12 @@ from PIL import Image
 import os
 
 # Define the desired width and height
-desired_width = 1280  # Set this to the desired width
-desired_height = 720  # Set this to the desired height
+desired_width = 1500  # Set this to the desired width
+desired_height = 1000  # Set this to the desired height
 
 # Define input and output directories
-input_dir = 'images/Slide 2 - behind the scenes'
-output_dir = 'images/Slide 2 - behind the scenes-a'
+input_dir = 'images/Slide 1 - homepage/Tradeshow/Project IBA'
+output_dir = 'images/Slide 1 - homepage/Tradeshow/Project IBA-a'
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_dir):
