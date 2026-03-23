@@ -6,12 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <title>EDficient - Contact</title>
-    <link rel="stylesheet" href="css/rewarding.css">
-    <!----Font awesome cdn  font icon css -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJDG2YW7DW"></script>
@@ -19,11 +15,10 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-SJDG2YW7DW');
 </script>
 <body>
-     <div class="hero-header">
+    <div class="hero-header">
         <div class="wrapper">
             <header>
                 <nav>
@@ -33,74 +28,74 @@
                         <span></span>
                     </div>
                     <ul class="navlinks">
-                        <li><a href="index.html">Intro</a></li>
-                        <li><a href="carefree.html">Care-free</a></li>
-                        <li><a href="rewarding.html">Rewarding</a></li>
-                        <li><a href="fun.html">Fun</a></li>
-                        <li><a href="contact.html" class="current-page">Contact</a></li>
+                        <li><a href="index.html" data-key="nav-intro">Intro</a></li>
+                        <li><a href="carefree.html" data-key="nav-carefree">Care-free</a></li>
+                        <li><a href="rewarding.html" data-key="nav-rewarding">Rewarding</a></li>
+                        <li><a href="fun.html" data-key="nav-fun">Fun</a></li>
+                        <li><a href="contact.html" class="current-page" data-key="nav-contact">Contact</a></li>
                     </ul>
                 </nav>
             </header>
+
             <div class="container">
-                 <div class="hero-text">
+                <div class="hero-text">
                     <div class="images-wrapper">
                         <img src="images/HOOFD.png" alt="hoofd" class="hoofd">
                         <img src="images/EDFICIENT_LOGO.png" alt="logo" class="logo2">
                     </div>
-                    <p> I can’t think of a reason not to connect. You too?
-                        You don’t need a clear-cut, finalized and signed off project charter before connecting.
-                        The earlier in the project we get to connect, the more room to apply EDficient experience and expertise to realize your stated goals.                         
-                        
-                        
+                    <p data-key="contact-hero">
+                        I can't think of a reason not to connect. You too?
+                        You don't need a clear-cut, finalized and signed off project charter before connecting.
+                        The earlier in the project we get to connect, the more room to apply EDficient
+                        experience and expertise to realize your stated goals.
                         <br><br>
-                        But if you already have everything clear-cut and signed off, then contact me too. Who knows, we might discover whole new levels of being EDficient together.
+                        But if you already have everything clear-cut and signed off, then contact me too.
+                        Who knows, we might discover whole new levels of being EDficient together.
                         <br><br>
-                        Let’s connect:
-
+                        Let's connect:
                     </p>
-
+                    <div class="section-divider"></div>
                     <div class="social">
                         <a href="https://www.linkedin.com/in/ed-hogendoorn-262a90a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                         <a id="openContactForm"><i class="fa-solid fa-envelope"></i></a>
                     </div>
-                 </div>
+                </div>
             </div>
-            <div class="gallery" id="gallery">
+
+            <div class="gallery gallery-center" id="gallery">
                 <div class="gallery-item">
                     <img src="images/visitekaart.png" alt="visitekaart">
                 </div>
             </div>
-            <a href=index.html><img src="images/EDFICIENT_WEB-BUTTON_Intro.png" alt="Next page" class="next-page"></a>  
+
+            <a href="index.html"><img src="images/EDFICIENT_WEB-BUTTON_Intro.png" alt="Next page" class="next-page"></a>
         </div>
+
         <div class="oranje-balk">
             <img src="images/oranjebaan-mettekst.png" alt="Oranje balk" class="desktop-balk">
             <img src="images/oranjebaan.png" alt="Mobile Oranje balk" class="mobile-balk">
-     </div>
-</div>
+        </div>
+    </div>
+
     <!-- Contact Form Popup -->
     <div id="contactForm" class="contact-form-popup">
         <div class="contact-form-content">
             <span class="close-btn">&times;</span>
-            <h2>Contact Me</h2>
+            <h2 data-key="form-title">Let's <span>connect</span></h2>
             <form action="https://api.web3forms.com/submit" method="post">
                 <input type="hidden" name="access_key" value="1b26e054-d21b-4b04-9239-55c3aaa8f15c">
-                
-                <label for="name">Name</label>
+                <label for="name" data-key="form-name">Name</label>
                 <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email</label>
+                <label for="email" data-key="form-email">Email</label>
                 <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message</label>
+                <label for="message" data-key="form-message">Message</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-                
-                <button type="submit" class="btn">Send Message</button>
+                <button type="submit" class="btn" data-key="form-send">Send Message</button>
             </form>
         </div>
     </div>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <script src="main.js"></script>
 
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
