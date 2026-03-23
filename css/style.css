@@ -485,13 +485,13 @@ nav .navlinks li a:hover::after { width: 100%; }
   font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.14em;
-  color: rgba(255,255,255,0.45);
+  color: white;
 }
 
 .modal-hint {
   font-family: var(--font-body);
   font-size: 0.7rem;
-  color: rgba(255,255,255,0.25);
+  color: white;
   letter-spacing: 0.08em;
 }
 
@@ -807,8 +807,8 @@ nav .navlinks li a:hover::after { width: 100%; }
   .modal-content { width: 94%; }
   .modal img, #carouselVideo { max-height: 55vh; }
   .modal-arrow { width: 36px; height: 36px; font-size: 0.95rem; }
-  .modal-arrow.prev { left: -12px; }
-  .modal-arrow.next { right: -12px; }
+  .modal-arrow.prev { left: 5px; }
+  .modal-arrow.next { right: 5px; }
   .hero-text p { font-size: 1rem; }
 }
 
@@ -820,7 +820,7 @@ nav .navlinks li a:hover::after { width: 100%; }
   .contact-form-content { padding: 32px 24px 28px; }
   .modal img, #carouselVideo { max-height: 48vh; }
   .modal-arrow { width: 32px; height: 32px; font-size: 0.85rem; }
-  .modal-arrow.prev { left: -8px; }
-  .modal-arrow.next { right: -8px; }
+  .modal-arrow.prev { left: 5px; }
+  .modal-arrow.next { right: 5px; }
   .images-wrapper::before { width: 80px; height: 80px; }
 }
