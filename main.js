@@ -11,11 +11,22 @@ if (togglebtn) {
         this.classList.toggle("click");
         navlinks.classList.toggle("open");
     });
+
     document.querySelectorAll(".navlinks a").forEach(function (link) {
         link.addEventListener("click", function () {
             navlinks.classList.remove("open");
             togglebtn.classList.remove("click");
         });
+    });
+    document.addEventListener("click", function (e) {
+        if (
+            navlinks.classList.contains("open") &&
+            !navlinks.contains(e.target) &&
+            !togglebtn.contains(e.target)
+        ) {
+            navlinks.classList.remove("open");
+            togglebtn.classList.remove("click");
+        }
     });
 }
 
@@ -286,6 +297,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         updateCounter();
     }
+    
 
     function navigate(dir) {
         var el = isVideo(currentSet[currentIndex]) ? modalVideo : modalImage;
