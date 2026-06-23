@@ -118,11 +118,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     };
 
-    var currentLang = localStorage.getItem('edficient-lang') || 'en';
+    var currentLang = localStorage.getItem('edficient-lang') || 'nl';
 
     function applyLang(lang) {
         currentLang = lang;
         localStorage.setItem('edficient-lang', lang);
+        document.documentElement.lang = lang;
         var t = translations[lang];
 
         document.querySelectorAll('.lang-btn').forEach(function (btn) {
