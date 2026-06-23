@@ -4,14 +4,14 @@
    Fonts: Cormorant Garamond (display) + Outfit (body)
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600;700&display=swap');
+/* Fonts are loaded via <link> in the HTML <head> for faster, non-blocking delivery. */
 
 :root {
   --accent:       #EC6502;
   --accent-dark:  #c75500;
   --bg:           #FAFAF7;
   --text:         #1A1A1A;
-  --text-muted:   #767676;
+  --text-muted:   #6e6e6e;
   --border:       rgba(0,0,0,0.09);
   --white:        #ffffff;
   --font-display: 'Cormorant Garamond', Georgia, serif;
@@ -265,8 +265,12 @@ nav .navlinks li a:hover::after { width: 100%; }
   color: inherit;
 }
 
-.hero-text .social i {
+.hero-text .social i,
+.hero-text .social svg {
   color: var(--text);
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
   font-size: 15px;
   transition: color var(--transition);
 }
@@ -280,7 +284,9 @@ nav .navlinks li a:hover::after { width: 100%; }
 }
 
 .hero-text .social a:hover i,
-.hero-text .social #openContactForm:hover i {
+.hero-text .social #openContactForm:hover i,
+.hero-text .social a:hover svg,
+.hero-text .social #openContactForm:hover svg {
   color: white;
 }
 

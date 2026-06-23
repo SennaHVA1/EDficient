@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", function () {
             'images/Slide 1 - homepage/Customer event/Cargill Party FI 2019 (WEB (68).jpg'
         ],
         "Internal events": [
-            'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (101).png',
+            'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (101).jpg',
             'images/Slide 1 - homepage/Internal events/Cargill 20 jarig jubileum (106).jpg',
             'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (72).JPG',
             'images/Slide 1 - homepage/Internal events/Cargill Mechelen 12-01-2023 (93).JPG'
@@ -328,7 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     document.querySelectorAll(".gallery-item img").forEach(function (img) {
-        img.addEventListener("click", function () { openModal(this.alt); });
+        img.addEventListener("click", function () { openModal(this.dataset.set || this.alt); });
     });
 
     closeBtn.addEventListener("click", closeModal);
