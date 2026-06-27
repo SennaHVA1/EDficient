@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <title>Pagina niet gevonden (404) | EDficient</title>
+    <meta name="description" content="Deze pagina bestaat niet (meer). Ga terug naar de homepage van EDficient — freelance marketing- en communicatieprojectmanagement.">
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#EC6502">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      .error-page {
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 60px 24px;
+      }
+      .error-page img.logo2 { max-width: 320px; width: 70%; height: auto; margin-bottom: 28px; }
+      .error-page .code {
+        font-family: var(--font-display);
+        font-size: clamp(3.5rem, 12vw, 6rem);
+        line-height: 1;
+        color: var(--accent);
+        margin: 0;
+      }
+      .error-page h1 {
+        font-family: var(--font-display);
+        font-weight: 500;
+        font-size: clamp(1.4rem, 4vw, 2rem);
+        margin: 10px 0 14px;
+        color: var(--text);
+      }
+      .error-page p { font-family: var(--font-body); color: var(--text-muted); max-width: 30rem; margin: 0 auto 26px; }
+      .error-page .home-btn {
+        display: inline-block;
+        font-family: var(--font-body);
+        font-weight: 600;
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 28px;
+        border-radius: var(--radius);
+        transition: background var(--transition);
+      }
+      .error-page .home-btn:hover { background: var(--accent-dark); }
+    </style>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="error-page">
+            <img src="images/EDFICIENT_LOGO.png" alt="EDficient logo" class="logo2" width="760" height="110">
+            <p class="code">404</p>
+            <h1>Deze pagina konden we niet vinden</h1>
+            <p>De pagina is verplaatst of bestaat niet meer. Geen zorgen — laten we je weer op weg helpen.</p>
+            <a href="index.html" class="home-btn">Terug naar de homepage</a>
+        </div>
+
+        <div class="oranje-balk">
+            <img src="images/oranjebaan-mettekst.png" alt="EDficient — zorgeloos, resultaatgericht en met plezier" class="desktop-balk">
+            <img src="images/oranjebaan.png" alt="EDficient merkbanner" class="mobile-balk">
+        </div>
+    </div>
+</body>
+</html>

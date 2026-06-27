@@ -36,6 +36,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data: WebPage + Service + Breadcrumb -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://edficient.nl/fun.html#webpage",
+          "url": "https://edficient.nl/fun.html",
+          "name": "Projectmanagement dat écht leuk is | EDficient",
+          "description": "Uitdagende projecten mogen vanaf het begin plezier geven. EDficient houdt stakeholders betrokken met gestructureerde overleggen en een positieve sfeer.",
+          "inLanguage": "nl",
+          "isPartOf": { "@id": "https://edficient.nl/#website" },
+          "about": { "@id": "https://edficient.nl/#business" },
+          "primaryImageOfPage": "https://edficient.nl/images/EDFICIENT_LOGO.png"
+        },
+        {
+          "@type": "Service",
+          "@id": "https://edficient.nl/fun.html#service",
+          "name": "Projectmanagement met plezier",
+          "serviceType": "Marketing- en communicatieprojectmanagement",
+          "description": "Betrokken stakeholders, goed georganiseerde en gestructureerde overleggen en een positieve sfeer waarin mensen hun talenten ontwikkelen en met plezier samenwerken.",
+          "provider": { "@id": "https://edficient.nl/#business" },
+          "areaServed": { "@type": "Country", "name": "Nederland" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Intro", "item": "https://edficient.nl/" },
+            { "@type": "ListItem", "position": 2, "name": "Plezier", "item": "https://edficient.nl/fun.html" }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJDG2YW7DW"></script>
@@ -57,9 +93,9 @@
                     </div>
                     <ul class="navlinks">
                         <li><a href="index.html" data-key="nav-intro">Intro</a></li>
-                        <li><a href="carefree.html" data-key="nav-carefree">Care-free</a></li>
-                        <li><a href="rewarding.html" data-key="nav-rewarding">Rewarding</a></li>
-                        <li><a href="fun.html" class="current-page" data-key="nav-fun">Fun</a></li>
+                        <li><a href="carefree.html" data-key="nav-carefree">Zorgeloos</a></li>
+                        <li><a href="rewarding.html" data-key="nav-rewarding">Resultaatgericht</a></li>
+                        <li><a href="fun.html" class="current-page" data-key="nav-fun">Plezier</a></li>
                         <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -73,16 +109,7 @@
                         <img src="images/EDFICIENT_LOGO.png" alt="EDficient logo" class="logo2" width="760" height="110">
                     </div>
                     <p data-key="fun-hero">
-                        The projects we will team up on are fun. Sure, they are challenging too,
-                        but we shouldn't wait to enjoy the work only when it's over and done.
-                        The process/project can be fun from the very start.
-                        <br><br>
-                        When your stakeholders are informed on a frequent basis and they know what we
-                        expect from them, they'll be engaged and very likely ambassadors for your project.
-                        <br><br>
-                        EDficient means you can look forward to regular well-organized, structured meetings,
-                        where people are held accountable and where we create a positive environment that
-                        allows all to develop and deploy their talents… and have fun!
+                        De projecten waar we samen aan werken zijn leuk. Natuurlijk zijn ze ook uitdagend, maar het werk mag onderweg al plezier geven — niet pas achteraf.<br><br>Wanneer stakeholders goed geïnformeerd zijn en weten wat er van hen verwacht wordt, raken ze betrokken en worden ze vaak zelfs ambassadeurs van het project.<br><br>EDficient betekent werken met structuur, duidelijke afspraken en een positieve sfeer waarin iedereen verantwoordelijkheid neemt en zijn talenten kan inzetten — en waarin samenwerken ook gewoon leuk is.
                     </p>
                     <div class="section-divider"></div>
                     <div class="social">
@@ -115,16 +142,16 @@
     <div id="contactForm" class="contact-form-popup">
         <div class="contact-form-content">
             <span class="close-btn">&times;</span>
-            <h2 data-key="form-title">Let's <span>connect</span></h2>
+            <h2 data-key="form-title">Laten we <span>kennismaken</span></h2>
             <form action="https://api.web3forms.com/submit" method="post">
                 <input type="hidden" name="access_key" value="1b26e054-d21b-4b04-9239-55c3aaa8f15c">
-                <label for="name" data-key="form-name">Name</label>
+                <label for="name" data-key="form-name">Naam</label>
                 <input type="text" id="name" name="name" required>
-                <label for="email" data-key="form-email">Email</label>
+                <label for="email" data-key="form-email">E-mail</label>
                 <input type="email" id="email" name="email" required>
-                <label for="message" data-key="form-message">Message</label>
+                <label for="message" data-key="form-message">Bericht</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit" class="btn" data-key="form-send">Send Message</button>
+                <button type="submit" class="btn" data-key="form-send">Versturen</button>
             </form>
         </div>
     </div>
