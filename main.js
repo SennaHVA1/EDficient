@@ -80,7 +80,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "gallery-customer": "Customer events",
             "gallery-internal": "Internal events",
             "gallery-sports":   "Sports events",
-            "modal-hint": "← use arrow keys →"
+            "modal-hint": "← use arrow keys →",
+            "site-credit": 'Website crafted by <a href="https://brand-on.org" target="_blank" rel="noopener">brand-on.org</a>'
         },
     nl: {
         "nav-intro":     "Intro",
@@ -114,7 +115,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "gallery-internal": "Interne evenementen",
         "gallery-sports":   "Sportevenementen",
 
-        "modal-hint": "← gebruik de pijltjestoetsen →"
+        "modal-hint": "← gebruik de pijltjestoetsen →",
+        "site-credit": 'Website met zorg gebouwd door <a href="https://brand-on.org" target="_blank" rel="noopener">brand-on.org</a>'
     }
     };
 

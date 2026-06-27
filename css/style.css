@@ -751,6 +751,40 @@ nav .navlinks li a:hover::after { width: 100%; }
 .mobile-balk { display: none; }
 
 /* ============================================
+   SITE CREDIT (footer)
+   ============================================ */
+.site-credit {
+  width: 100%;
+  text-align: center;
+  padding: 18px 20px 22px;
+  background: var(--bg);
+}
+
+.site-credit p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.site-credit a {
+  color: var(--text-muted);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.site-credit a:hover,
+.site-credit a:focus-visible {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ============================================
    DIVIDER ACCENT
    ============================================ */
 .section-divider {
